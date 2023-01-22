@@ -1,0 +1,28 @@
+cursor:
+    style:
+      shape: Beam
+      blinking: On
+
+font:
+  normal:
+    family: "Jetbrains Mono Nerd Font"
+  size: 11
+
+env:
+  TERM: alacritty
+
+window:
+  dimensions:
+    columns: 82
+    lines: 25
+  
+  padding:
+    x: 5
+    y: 5
+
+  decorations: full
+  startup_mode: Windowed
+  dynamic_title: true
+
+import:
+  - "~/.config/alacritty/colorschemes/tokyo-catppuccin.yml"
